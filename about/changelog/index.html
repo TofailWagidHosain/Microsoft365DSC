@@ -1,0 +1,5866 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://microsoft.github.io/Microsoft365DSC/about/changelog/">
+      
+      <link rel="icon" href="../../Images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.2">
+    
+    
+      
+        <title>Changelog - Microsoft365DSC - Your Cloud Configuration</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.f7951f6f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-209929913-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#change-log-for-microsoft365dsc" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+  <!-- Add announcement here, including arbitrary HTML -->
+  <div class="md-container"><span>Check out our <a href="https://www.youtube.com/channel/UCveScabVT6pxzqYgGRu17iw" >YouTube channel</a></span></div>
+
+          </div>
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Microsoft365DSC - Your Cloud Configuration" class="md-header__button md-logo" aria-label="Microsoft365DSC - Your Cloud Configuration" data-md-component="logo">
+      
+  <img src="../../Images/SmallLogo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Microsoft365DSC - Your Cloud Configuration
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/microsoft/Microsoft365DSC/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../user-guide/get-started/install-first-module/" class="md-tabs__link">
+        User Guide
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contributing/contribution-guidelines/" class="md-tabs__link">
+        Contributing
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../concepts/breaking-changes/" class="md-tabs__link">
+        Concepts
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../resources/overview/" class="md-tabs__link">
+        Resources
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../why/" class="md-tabs__link md-tabs__link--active">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Microsoft365DSC - Your Cloud Configuration" class="md-nav__button md-logo" aria-label="Microsoft365DSC - Your Cloud Configuration" data-md-component="logo">
+      
+  <img src="../../Images/SmallLogo.png" alt="logo">
+
+    </a>
+    Microsoft365DSC - Your Cloud Configuration
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/microsoft/Microsoft365DSC/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Home" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../home/what-is-M365DSC/" class="md-nav__link">
+        What is Microsoft365DSC?
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          User Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          User Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Get Started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Get Started" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Get Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/install-first-module/" class="md-nav__link">
+        How to install
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/write-first-config/" class="md-nav__link">
+        Write your First Microsoft365DSC Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/extract-config/" class="md-nav__link">
+        Extracting Configuration from an Existing Microsoft 365 Tenant
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/apply-config/" class="md-nav__link">
+        Apply a Configuration to your Microsoft 365 Tenant
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/monitor-tenants/" class="md-nav__link">
+        Monitor Tenants for Configuration Drifts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/assess-tenants-blueprint/" class="md-nav__link">
+        Assess Tenants Against a Blueprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/get-started/generate-reports/" class="md-nav__link">
+        Generating Reports
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Advanced
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Advanced" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Advanced
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/advanced/create-blueprint/" class="md-nav__link">
+        How to Create a M365DSC Blueprint
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Contributing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Contributing" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Contributing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/contribution-guidelines/" class="md-nav__link">
+        Guidelines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/getting-started/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/develop-new-resource/" class="md-nav__link">
+        Develop a New Resource
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Concepts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Concepts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/breaking-changes/" class="md-nav__link">
+        Breaking Changes Policy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/odsp-permissions/" class="md-nav__link">
+        OneDrive & SharePoint Permissions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/consent-flow/" class="md-nav__link">
+        Consent Flow
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Azure AD
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Azure AD" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Azure AD
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADApplication/" class="md-nav__link">
+        AADApplication
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADConditionalAccessPolicy/" class="md-nav__link">
+        AADConditionalAccessPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADGroup/" class="md-nav__link">
+        AADGroup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADGroupLifecyclePolicy/" class="md-nav__link">
+        AADGroupLifecyclePolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADGroupsNamingPolicy/" class="md-nav__link">
+        AADGroupsNamingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADGroupsSettings/" class="md-nav__link">
+        AADGroupsSettings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADNamedLocationPolicy/" class="md-nav__link">
+        AADNamedLocationPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADRoleDefinition/" class="md-nav__link">
+        AADRoleDefinition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADServicePrincipal/" class="md-nav__link">
+        AADServicePrincipal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADTenantDetails/" class="md-nav__link">
+        AADTenantDetails
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/azure-ad/AADTokenLifetimePolicy/" class="md-nav__link">
+        AADTokenLifetimePolicy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Exchange
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Exchange" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Exchange
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAcceptedDomain/" class="md-nav__link">
+        EXOAcceptedDomain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOActiveSyncDeviceAccessRule/" class="md-nav__link">
+        EXOActiveSyncDeviceAccessRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAddressBookPolicy/" class="md-nav__link">
+        EXOAddressBookPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAddressList/" class="md-nav__link">
+        EXOAddressList
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAntiPhishPolicy/" class="md-nav__link">
+        EXOAntiPhishPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAntiPhishRule/" class="md-nav__link">
+        EXOAntiPhishRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOApplicationAccessPolicy/" class="md-nav__link">
+        EXOApplicationAccessPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAtpPolicyForO365/" class="md-nav__link">
+        EXOAtpPolicyForO365
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAvailabilityAddressSpace/" class="md-nav__link">
+        EXOAvailabilityAddressSpace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOAvailabilityConfig/" class="md-nav__link">
+        EXOAvailabilityConfig
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOCASMailboxPlan/" class="md-nav__link">
+        EXOCASMailboxPlan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOClientAccessRule/" class="md-nav__link">
+        EXOClientAccessRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXODkimSigningConfig/" class="md-nav__link">
+        EXODkimSigningConfig
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOEmailAddressPolicy/" class="md-nav__link">
+        EXOEmailAddressPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOGlobalAddressList/" class="md-nav__link">
+        EXOGlobalAddressList
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOHostedConnectionFilterPolicy/" class="md-nav__link">
+        EXOHostedConnectionFilterPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOHostedContentFilterPolicy/" class="md-nav__link">
+        EXOHostedContentFilterPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOHostedContentFilterRule/" class="md-nav__link">
+        EXOHostedContentFilterRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOHostedOutboundSpamFilterPolicy/" class="md-nav__link">
+        EXOHostedOutboundSpamFilterPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOHostedOutboundSpamFilterRule/" class="md-nav__link">
+        EXOHostedOutboundSpamFilterRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOInboundConnector/" class="md-nav__link">
+        EXOInboundConnector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOIntraOrganizationConnector/" class="md-nav__link">
+        EXOIntraOrganizationConnector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOJournalRule/" class="md-nav__link">
+        EXOJournalRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOMailTips/" class="md-nav__link">
+        EXOMailTips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOMailboxSettings/" class="md-nav__link">
+        EXOMailboxSettings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOMalwareFilterPolicy/" class="md-nav__link">
+        EXOMalwareFilterPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOMalwareFilterRule/" class="md-nav__link">
+        EXOMalwareFilterRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOManagementRole/" class="md-nav__link">
+        EXOManagementRole
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOMobileDeviceMailboxPolicy/" class="md-nav__link">
+        EXOMobileDeviceMailboxPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOOfflineAddressBook/" class="md-nav__link">
+        EXOOfflineAddressBook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOOnPremisesOrganization/" class="md-nav__link">
+        EXOOnPremisesOrganization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOOrganizationConfig/" class="md-nav__link">
+        EXOOrganizationConfig
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOOrganizationRelationship/" class="md-nav__link">
+        EXOOrganizationRelationship
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOOutboundConnector/" class="md-nav__link">
+        EXOOutboundConnector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOOwaMailboxPolicy/" class="md-nav__link">
+        EXOOwaMailboxPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOPartnerApplication/" class="md-nav__link">
+        EXOPartnerApplication
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOPolicyTipConfig/" class="md-nav__link">
+        EXOPolicyTipConfig
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXORemoteDomain/" class="md-nav__link">
+        EXORemoteDomain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXORoleAssignmentPolicy/" class="md-nav__link">
+        EXORoleAssignmentPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOSafeAttachmentPolicy/" class="md-nav__link">
+        EXOSafeAttachmentPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOSafeAttachmentRule/" class="md-nav__link">
+        EXOSafeAttachmentRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOSafeLinksPolicy/" class="md-nav__link">
+        EXOSafeLinksPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOSafeLinksRule/" class="md-nav__link">
+        EXOSafeLinksRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOSharedMailbox/" class="md-nav__link">
+        EXOSharedMailbox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOSharingPolicy/" class="md-nav__link">
+        EXOSharingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/exchange/EXOTransportRule/" class="md-nav__link">
+        EXOTransportRule
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          Intune
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Intune" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Intune
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneAppConfigurationPolicy/" class="md-nav__link">
+        IntuneAppConfigurationPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneAppProtectionPolicyiOS/" class="md-nav__link">
+        IntuneAppProtectionPolicyiOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCategory/" class="md-nav__link">
+        IntuneDeviceCategory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCompliancePolicyAndroid/" class="md-nav__link">
+        IntuneDeviceCompliancePolicyAndroid
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCompliancePolicyAndroidDeviceOwner/" class="md-nav__link">
+        IntuneDeviceCompliancePolicyAndroidDeviceOwner
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCompliancePolicyAndroidWorkProfile/" class="md-nav__link">
+        IntuneDeviceCompliancePolicyAndroidWorkProfile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCompliancePolicyMacOS/" class="md-nav__link">
+        IntuneDeviceCompliancePolicyMacOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCompliancePolicyWindows10/" class="md-nav__link">
+        IntuneDeviceCompliancePolicyWindows10
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceCompliancePolicyiOs/" class="md-nav__link">
+        IntuneDeviceCompliancePolicyiOs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceConfigurationPolicyAndroidWorkProfile/" class="md-nav__link">
+        IntuneDeviceConfigurationPolicyAndroidWorkProfile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceConfigurationPolicyWindows10/" class="md-nav__link">
+        IntuneDeviceConfigurationPolicyWindows10
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceConfigurationPolicyiOS/" class="md-nav__link">
+        IntuneDeviceConfigurationPolicyiOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceEnrollmentLimitRestriction/" class="md-nav__link">
+        IntuneDeviceEnrollmentLimitRestriction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intune/IntuneDeviceEnrollmentPlatformRestriction/" class="md-nav__link">
+        IntuneDeviceEnrollmentPlatformRestriction
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_5">
+          Office365
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Office365" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Office365
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/office365/O365AdminAuditLogConfig/" class="md-nav__link">
+        O365AdminAuditLogConfig
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/office365/O365Group/" class="md-nav__link">
+        O365Group
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/office365/O365OrgCustomizationSetting/" class="md-nav__link">
+        O365OrgCustomizationSetting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/office365/O365User/" class="md-nav__link">
+        O365User
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          OneDrive
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="OneDrive" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          OneDrive
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/onedrive/ODSettings/" class="md-nav__link">
+        ODSettings
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_7">
+          Planner
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planner" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Planner
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/planner/PlannerBucket/" class="md-nav__link">
+        PlannerBucket
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/planner/PlannerPlan/" class="md-nav__link">
+        PlannerPlan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/planner/PlannerTask/" class="md-nav__link">
+        PlannerTask
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_8">
+          Power Platform
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Power Platform" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Power Platform
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/power-platform/PPPowerAppsEnvironment/" class="md-nav__link">
+        PPPowerAppsEnvironment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/power-platform/PPTenantSettings/" class="md-nav__link">
+        PPTenantSettings
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_9">
+          Security & Compliance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Security & Compliance" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
+          <span class="md-nav__icon md-icon"></span>
+          Security & Compliance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCAuditConfigurationPolicy/" class="md-nav__link">
+        SCAuditConfigurationPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCCaseHoldPolicy/" class="md-nav__link">
+        SCCaseHoldPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCCaseHoldRule/" class="md-nav__link">
+        SCCaseHoldRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCComplianceCase/" class="md-nav__link">
+        SCComplianceCase
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCComplianceSearch/" class="md-nav__link">
+        SCComplianceSearch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCComplianceSearchAction/" class="md-nav__link">
+        SCComplianceSearchAction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCComplianceTag/" class="md-nav__link">
+        SCComplianceTag
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCDLPCompliancePolicy/" class="md-nav__link">
+        SCDLPCompliancePolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCDLPComplianceRule/" class="md-nav__link">
+        SCDLPComplianceRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCDeviceConditionalAccessPolicy/" class="md-nav__link">
+        SCDeviceConditionalAccessPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCDeviceConfigurationPolicy/" class="md-nav__link">
+        SCDeviceConfigurationPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCFilePlanPropertyAuthority/" class="md-nav__link">
+        SCFilePlanPropertyAuthority
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCFilePlanPropertyCategory/" class="md-nav__link">
+        SCFilePlanPropertyCategory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCFilePlanPropertyCitation/" class="md-nav__link">
+        SCFilePlanPropertyCitation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCFilePlanPropertyDepartment/" class="md-nav__link">
+        SCFilePlanPropertyDepartment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCFilePlanPropertyReferenceId/" class="md-nav__link">
+        SCFilePlanPropertyReferenceId
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCFilePlanPropertySubCategory/" class="md-nav__link">
+        SCFilePlanPropertySubCategory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCLabelPolicy/" class="md-nav__link">
+        SCLabelPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCRetentionCompliancePolicy/" class="md-nav__link">
+        SCRetentionCompliancePolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCRetentionComplianceRule/" class="md-nav__link">
+        SCRetentionComplianceRule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCRetentionEventType/" class="md-nav__link">
+        SCRetentionEventType
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCSensitivityLabel/" class="md-nav__link">
+        SCSensitivityLabel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCSupervisoryReviewPolicy/" class="md-nav__link">
+        SCSupervisoryReviewPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/security-compliance/SCSupervisoryReviewRule/" class="md-nav__link">
+        SCSupervisoryReviewRule
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_10">
+          SharePoint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SharePoint" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_10">
+          <span class="md-nav__icon md-icon"></span>
+          SharePoint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOAccessControlSettings/" class="md-nav__link">
+        SPOAccessControlSettings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOApp/" class="md-nav__link">
+        SPOApp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOBrowserIdleSignout/" class="md-nav__link">
+        SPOBrowserIdleSignout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOHomeSite/" class="md-nav__link">
+        SPOHomeSite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOHubSite/" class="md-nav__link">
+        SPOHubSite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOOrgAssetsLibrary/" class="md-nav__link">
+        SPOOrgAssetsLibrary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOPropertyBag/" class="md-nav__link">
+        SPOPropertyBag
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSearchManagedProperty/" class="md-nav__link">
+        SPOSearchManagedProperty
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSearchResultSource/" class="md-nav__link">
+        SPOSearchResultSource
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSharingSettings/" class="md-nav__link">
+        SPOSharingSettings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSite/" class="md-nav__link">
+        SPOSite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSiteAuditSettings/" class="md-nav__link">
+        SPOSiteAuditSettings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSiteDesign/" class="md-nav__link">
+        SPOSiteDesign
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSiteDesignRights/" class="md-nav__link">
+        SPOSiteDesignRights
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSiteGroup/" class="md-nav__link">
+        SPOSiteGroup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOSiteScript/" class="md-nav__link">
+        SPOSiteScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOStorageEntity/" class="md-nav__link">
+        SPOStorageEntity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOTenantCDNPolicy/" class="md-nav__link">
+        SPOTenantCDNPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOTenantCdnEnabled/" class="md-nav__link">
+        SPOTenantCdnEnabled
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOTenantSettings/" class="md-nav__link">
+        SPOTenantSettings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOTheme/" class="md-nav__link">
+        SPOTheme
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/sharepoint/SPOUserProfileProperty/" class="md-nav__link">
+        SPOUserProfileProperty
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_11">
+          Teams
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Teams" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_11">
+          <span class="md-nav__icon md-icon"></span>
+          Teams
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsCallingPolicy/" class="md-nav__link">
+        TeamsCallingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsChannel/" class="md-nav__link">
+        TeamsChannel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsChannelTab/" class="md-nav__link">
+        TeamsChannelTab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsChannelsPolicy/" class="md-nav__link">
+        TeamsChannelsPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsClientConfiguration/" class="md-nav__link">
+        TeamsClientConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsEmergencyCallRoutingPolicy/" class="md-nav__link">
+        TeamsEmergencyCallRoutingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsEmergencyCallingPolicy/" class="md-nav__link">
+        TeamsEmergencyCallingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsGuestCallingConfiguration/" class="md-nav__link">
+        TeamsGuestCallingConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsGuestMeetingConfiguration/" class="md-nav__link">
+        TeamsGuestMeetingConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsGuestMessagingConfiguration/" class="md-nav__link">
+        TeamsGuestMessagingConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsMeetingBroadcastConfiguration/" class="md-nav__link">
+        TeamsMeetingBroadcastConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsMeetingBroadcastPolicy/" class="md-nav__link">
+        TeamsMeetingBroadcastPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsMeetingConfiguration/" class="md-nav__link">
+        TeamsMeetingConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsMeetingPolicy/" class="md-nav__link">
+        TeamsMeetingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsMessagingPolicy/" class="md-nav__link">
+        TeamsMessagingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsPstnUsage/" class="md-nav__link">
+        TeamsPstnUsage
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsTeam/" class="md-nav__link">
+        TeamsTeam
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsTenantDialPlan/" class="md-nav__link">
+        TeamsTenantDialPlan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsUpgradeConfiguration/" class="md-nav__link">
+        TeamsUpgradeConfiguration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsUpgradePolicy/" class="md-nav__link">
+        TeamsUpgradePolicy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsUser/" class="md-nav__link">
+        TeamsUser
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsVoiceRoute/" class="md-nav__link">
+        TeamsVoiceRoute
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/teams/TeamsVoiceRoutingPolicy/" class="md-nav__link">
+        TeamsVoiceRoutingPolicy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why/" class="md-nav__link">
+        Why Microsoft365DSC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Changelog
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#12110063" class="md-nav__link">
+    1.21.1006.3
+  </a>
+  
+    <nav class="md-nav" aria-label="1.21.1006.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#breaking-changes" class="md-nav__link">
+    BREAKING CHANGES
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    DEPENDENCIES
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    MISC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219221" class="md-nav__link">
+    1.21.922.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219151" class="md-nav__link">
+    1.21.915.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219081" class="md-nav__link">
+    1.21.908.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219011" class="md-nav__link">
+    1.21.901.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1218251" class="md-nav__link">
+    1.21.825.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1218041" class="md-nav__link">
+    1.21.804.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217281" class="md-nav__link">
+    1.21.728.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217211" class="md-nav__link">
+    1.21.721.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217141" class="md-nav__link">
+    1.21.714.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217071" class="md-nav__link">
+    1.21.707.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216301" class="md-nav__link">
+    1.21.630.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216161" class="md-nav__link">
+    1.21.616.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216092" class="md-nav__link">
+    1.21.609.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216091" class="md-nav__link">
+    1.21.609.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216021" class="md-nav__link">
+    1.21.602.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215262" class="md-nav__link">
+    1.21.526.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215192" class="md-nav__link">
+    1.21.519.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215191" class="md-nav__link">
+    1.21.519.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215121" class="md-nav__link">
+    1.21.512.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215051" class="md-nav__link">
+    1.21.505.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214282" class="md-nav__link">
+    1.21.428.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214212" class="md-nav__link">
+    1.21.421.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214211" class="md-nav__link">
+    1.21.421.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214142" class="md-nav__link">
+    1.21.414.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214071" class="md-nav__link">
+    1.21.407.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1213311" class="md-nav__link">
+    1.21.331.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1213171" class="md-nav__link">
+    1.21.317.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1212241" class="md-nav__link">
+    1.21.224.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1212171" class="md-nav__link">
+    1.21.217.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1212031" class="md-nav__link">
+    1.21.203.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1211271" class="md-nav__link">
+    1.21.127.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1211201" class="md-nav__link">
+    1.21.120.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1211131" class="md-nav__link">
+    1.21.113.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012231" class="md-nav__link">
+    1.20.1223.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012161" class="md-nav__link">
+    1.20.1216.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012091" class="md-nav__link">
+    1.20.1209.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012021" class="md-nav__link">
+    1.20.1202.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011251" class="md-nav__link">
+    1.20.1125.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011181" class="md-nav__link">
+    1.20.1118.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011111" class="md-nav__link">
+    1.20.1111.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011041" class="md-nav__link">
+    1.20.1104.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010281" class="md-nav__link">
+    1.20.1028.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010211" class="md-nav__link">
+    1.20.1021.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010161" class="md-nav__link">
+    1.20.1016.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010141" class="md-nav__link">
+    1.20.1014.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010071" class="md-nav__link">
+    1.20.1007.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209301" class="md-nav__link">
+    1.20.930.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209231" class="md-nav__link">
+    1.20.923.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209161" class="md-nav__link">
+    1.20.916.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209091" class="md-nav__link">
+    1.20.909.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209021" class="md-nav__link">
+    1.20.902.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1208051" class="md-nav__link">
+    1.20.805.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207302" class="md-nav__link">
+    1.20.730.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207301" class="md-nav__link">
+    1.20.730.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207231" class="md-nav__link">
+    1.20.723.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207221" class="md-nav__link">
+    1.20.722.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207161" class="md-nav__link">
+    1.20.716.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12006031" class="md-nav__link">
+    1.20.0603.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#105128" class="md-nav__link">
+    1.0.5.128
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10439" class="md-nav__link">
+    1.0.4.39
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1031723" class="md-nav__link">
+    1.0.3.1723
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1021583" class="md-nav__link">
+    1.0.2.1583
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1011395" class="md-nav__link">
+    1.0.1.1395
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1001048" class="md-nav__link">
+    1.0.0.1048
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100846" class="md-nav__link">
+    1.0.0.846
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100776" class="md-nav__link">
+    1.0.0.776
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100744" class="md-nav__link">
+    1.0.0.744
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community-resources/" class="md-nav__link">
+        Community Resources
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#12110063" class="md-nav__link">
+    1.21.1006.3
+  </a>
+  
+    <nav class="md-nav" aria-label="1.21.1006.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#breaking-changes" class="md-nav__link">
+    BREAKING CHANGES
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    DEPENDENCIES
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    MISC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219221" class="md-nav__link">
+    1.21.922.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219151" class="md-nav__link">
+    1.21.915.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219081" class="md-nav__link">
+    1.21.908.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1219011" class="md-nav__link">
+    1.21.901.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1218251" class="md-nav__link">
+    1.21.825.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1218041" class="md-nav__link">
+    1.21.804.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217281" class="md-nav__link">
+    1.21.728.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217211" class="md-nav__link">
+    1.21.721.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217141" class="md-nav__link">
+    1.21.714.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1217071" class="md-nav__link">
+    1.21.707.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216301" class="md-nav__link">
+    1.21.630.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216161" class="md-nav__link">
+    1.21.616.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216092" class="md-nav__link">
+    1.21.609.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216091" class="md-nav__link">
+    1.21.609.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1216021" class="md-nav__link">
+    1.21.602.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215262" class="md-nav__link">
+    1.21.526.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215192" class="md-nav__link">
+    1.21.519.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215191" class="md-nav__link">
+    1.21.519.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215121" class="md-nav__link">
+    1.21.512.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1215051" class="md-nav__link">
+    1.21.505.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214282" class="md-nav__link">
+    1.21.428.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214212" class="md-nav__link">
+    1.21.421.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214211" class="md-nav__link">
+    1.21.421.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214142" class="md-nav__link">
+    1.21.414.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1214071" class="md-nav__link">
+    1.21.407.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1213311" class="md-nav__link">
+    1.21.331.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1213171" class="md-nav__link">
+    1.21.317.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1212241" class="md-nav__link">
+    1.21.224.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1212171" class="md-nav__link">
+    1.21.217.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1212031" class="md-nav__link">
+    1.21.203.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1211271" class="md-nav__link">
+    1.21.127.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1211201" class="md-nav__link">
+    1.21.120.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1211131" class="md-nav__link">
+    1.21.113.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012231" class="md-nav__link">
+    1.20.1223.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012161" class="md-nav__link">
+    1.20.1216.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012091" class="md-nav__link">
+    1.20.1209.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12012021" class="md-nav__link">
+    1.20.1202.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011251" class="md-nav__link">
+    1.20.1125.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011181" class="md-nav__link">
+    1.20.1118.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011111" class="md-nav__link">
+    1.20.1111.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12011041" class="md-nav__link">
+    1.20.1104.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010281" class="md-nav__link">
+    1.20.1028.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010211" class="md-nav__link">
+    1.20.1021.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010161" class="md-nav__link">
+    1.20.1016.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010141" class="md-nav__link">
+    1.20.1014.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12010071" class="md-nav__link">
+    1.20.1007.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209301" class="md-nav__link">
+    1.20.930.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209231" class="md-nav__link">
+    1.20.923.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209161" class="md-nav__link">
+    1.20.916.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209091" class="md-nav__link">
+    1.20.909.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1209021" class="md-nav__link">
+    1.20.902.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1208051" class="md-nav__link">
+    1.20.805.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207302" class="md-nav__link">
+    1.20.730.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207301" class="md-nav__link">
+    1.20.730.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207231" class="md-nav__link">
+    1.20.723.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207221" class="md-nav__link">
+    1.20.722.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1207161" class="md-nav__link">
+    1.20.716.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12006031" class="md-nav__link">
+    1.20.0603.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#105128" class="md-nav__link">
+    1.0.5.128
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10439" class="md-nav__link">
+    1.0.4.39
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1031723" class="md-nav__link">
+    1.0.3.1723
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1021583" class="md-nav__link">
+    1.0.2.1583
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1011395" class="md-nav__link">
+    1.0.1.1395
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1001048" class="md-nav__link">
+    1.0.0.1048
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100846" class="md-nav__link">
+    1.0.0.846
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100776" class="md-nav__link">
+    1.0.0.776
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100744" class="md-nav__link">
+    1.0.0.744
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/microsoft/Microsoft365DSC/tree/Dev/docs/docs/about/changelog.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="change-log-for-microsoft365dsc">Change log for Microsoft365DSC<a class="headerlink" href="#change-log-for-microsoft365dsc" title="Permanent link">&para;</a></h1>
+<h2 id="12110063">1.21.1006.3<a class="headerlink" href="#12110063" title="Permanent link">&para;</a></h2>
+<h3 id="breaking-changes">BREAKING CHANGES<a class="headerlink" href="#breaking-changes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AADApplication</li>
+<li>Removed support for the Oauth2AllowImplicitFlow, SamlMetadataUrl and
+    Oauth2AllowUrlPathMatching properties;</li>
+<li>AADMSGroup</li>
+<li>Renamed resource to AADGroup;</li>
+<li>AADMSGroupLifecyclePolicy</li>
+<li>Renamed resource to AADGroupLifecyclePolicy;</li>
+<li>AADPolicy</li>
+<li>Replaced resource by the new AADTokenLifetimePolicy one;</li>
+</ul>
+<h3 id="dependencies">DEPENDENCIES<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added dependency on Microsoft.Graph.Applications;</li>
+<li>Added dependency on Microsoft.Graph.Groups;</li>
+<li>Added dependency on Microsoft.Graph.Identity.DirectoryManagement;</li>
+<li>Added dependency on Microsoft.Graph.Identity.SignIns;</li>
+<li>Removing dependency on AzureADPreview;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to version 2.0.137;</li>
+<li>Updated MicrosoftTeams to version 2.6.0;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.72;</li>
+</ul>
+<h3 id="misc">MISC<a class="headerlink" href="#misc" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Renamed the GlobalAdminAccount parameter to Credential across all resources;</li>
+<li>Revamped entire Azure AD Workload to leverage Microsoft Graph;</li>
+<li>New -LaunchWebUI switch for Export-M365DSCConfiguration will launch the
+  new web-based UI. The old GUI has been removed.</li>
+<li>Removal of the -Quiet switch for the Export-M365DSCConfiguration cmdlet;</li>
+<li>Renaming the ComponentsToExtract property from the Export-M365DSCConfiguration
+  cmdlet to Components;</li>
+</ul>
+<h2 id="1219221">1.21.922.1<a class="headerlink" href="#1219221" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>AADApplication</p>
+</li>
+<li>
+<p>Fix issue where export will only export 100 apps</p>
+</li>
+<li>
+<p>EXOSafeLinksPolicy</p>
+</li>
+<li>Added support for CustomNotificationText, EnableOrganizationBranding, and
+    UseTranslatedNotificationText properties;</li>
+<li>SPOSite</li>
+<li>Fixed issue when deleting site and confirm parameter</li>
+<li>DEPENDENCIES</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.68;</li>
+</ul>
+<h2 id="1219151">1.21.915.1<a class="headerlink" href="#1219151" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOAntiPhishPolicy</li>
+<li>Added support for EnableFirstContactSafetyTips &amp; EnableViaTag;</li>
+<li>EXOAtpPolicyForO365</li>
+<li>Added support for AllowSafeDocsOpen;</li>
+<li>EXOHostedContentFilterPolicy</li>
+<li>Added support for HighConfidencePhishAction;</li>
+<li>EXOHostedOutboundSpamFilterPolicy
+  Added support for RecipientLimitInternalPerHour, RecipientLimitPerDay,
+  RecipientLimitExternalPerHour, ActionWhenThresholdReached &amp; AutoForwardingMode;</li>
+<li>EXOHostedOutboundSpamFilterRule
+  Initial release;</li>
+<li>IntuneAppConfigurationPolicy</li>
+<li>Added support for the CustomSettings property;</li>
+<li>IntuneDeviceCompliancePolicyWindows10</li>
+<li>Removed the App Secret and Application ID from the output;</li>
+<li>Added DefenderEnabled to the Resource;</li>
+<li>IntuneDeviceConfigurationWindows10</li>
+<li>Initial release;</li>
+<li>DEPENDENCIES;</li>
+<li>Updated Microsoft.Graph.Authentication to version 1.7.0;</li>
+<li>Added dependency on Microsoft.Graph.DeviceManagement;</li>
+<li>Added dependency on Microsoft.Graph.DeviceManagement.Administration;</li>
+<li>Added dependency on Microsoft.Graph.DeviceManagement.Enrolment;</li>
+<li>Added dependency on Microsoft.Graph.Devices.CorporateManagement;</li>
+<li>Updated Microsoft.Graph.Planner to version 1.7.0;</li>
+<li>Updated Microsoft.Graph.Teams to version 1.7.0;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to version 2.0.136;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.67;</li>
+</ul>
+<h2 id="1219081">1.21.908.1<a class="headerlink" href="#1219081" title="Permanent link">&para;</a></h2>
+<ul>
+<li>PPTenantSettings</li>
+<li>Initial Release;</li>
+<li>DEPENDENCIES;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.64;</li>
+<li>MISC</li>
+<li>Fixing duplicate teams names in reports;</li>
+</ul>
+<h2 id="1219011">1.21.901.1<a class="headerlink" href="#1219011" title="Permanent link">&para;</a></h2>
+<ul>
+<li>DEPENDENCIES;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to version 2.0.133;</li>
+<li>Updated MicrosoftTeams to version 2.5.1;</li>
+<li>MISC</li>
+<li>Additional display alignment fixes for Export;</li>
+</ul>
+<h2 id="1218251">1.21.825.1<a class="headerlink" href="#1218251" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SPOTenantSettings</li>
+<li>Added the DisabledWebpartIds &amp; ConditionalAccessPolicy properties;</li>
+<li>DEPENDENCIES;</li>
+<li>Updated AzureADPreview to version 2.0.2.138;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to version 2.0.131;</li>
+<li>Updated Microsoft.Teams to version 2.5.0;</li>
+<li>MISC</li>
+<li>Additional display alignment fixes for Export;</li>
+</ul>
+<h2 id="1218041">1.21.804.1<a class="headerlink" href="#1218041" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SCDLPComplianceRule</li>
+<li>Fixed issue where SCDLPCompliance rule failed when using senstitivy labels;</li>
+<li>DEPENDENCIES;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.62;</li>
+<li>MISC</li>
+<li>Added support for ApplicationSecret in SPO resources;</li>
+<li>Revamped the entire display from an Export;</li>
+</ul>
+<h2 id="1217281">1.21.728.1<a class="headerlink" href="#1217281" title="Permanent link">&para;</a></h2>
+<ul>
+<li>DEPENDENCIES;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.59;</li>
+<li>Updated PnP.PowerShell to version 1.7.0;</li>
+<li>MISC</li>
+<li>Added support for Service Principal Authentication for all Intune resources;</li>
+<li>Deprecated GUI and added reference to new Web based GUI;</li>
+</ul>
+<h2 id="1217211">1.21.721.1<a class="headerlink" href="#1217211" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADMSGroup</li>
+<li>Fixed an issue where the Visibility parameter was never properly returned
+    which always threw a detected drift when used.</li>
+<li>EXOJournalRule</li>
+<li>Initial Release.</li>
+<li>SPOSite</li>
+<li>Fixed the StorageQuotaWarningLevel value returned by the Get-TargetResource
+    function.</li>
+</ul>
+<h2 id="1217141">1.21.714.1<a class="headerlink" href="#1217141" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOHostedContentFilterPolicy</li>
+<li>Fixed issues with null values falsely detected as drifts;
+    ISSUE #1165</li>
+<li>DEPENDENCIES</li>
+<li>Removed dependency on Microsoft.Graph.Groups.Planner;</li>
+<li>Updated Microsoft.Graph.Teams to version 1.6.1;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.54;</li>
+<li>MISC</li>
+<li>Allowed for Desired and Current values to be captured by the Telemetry engine
+    if an organization is using a custom App Insights account;
+    ISSUE #1222</li>
+</ul>
+<h2 id="1217071">1.21.707.1<a class="headerlink" href="#1217071" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXODkimSigningConfig</li>
+<li>Change the logic to remove an entry to disable it instead since the
+    cmdlet didn't exist to remove it.
+    ISSUE #1253</li>
+<li>EXOHostedContentFilterPolicy</li>
+<li>Fixed the value type for the senders addresses, regions and domains;
+    ISSUE #1165</li>
+<li>EXOOutboundConnector</li>
+<li>Fixed the creation logic to include ValidationRecipients;
+    ISSUE #1165</li>
+<li>EXOSharedMailbox</li>
+<li>Improved speed of extraction and removed warning about maximum 1,000
+    items retrieved;</li>
+<li>DEPENDENCIES</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to 2.0.127;</li>
+<li>MISC</li>
+<li>Delta Report - Fixes to compare null arrays properly and report as
+    a discrepancy.
+    ISSUES #1178 &amp; #1249</li>
+</ul>
+<h2 id="1216301">1.21.630.1<a class="headerlink" href="#1216301" title="Permanent link">&para;</a></h2>
+<ul>
+<li>O365User</li>
+<li>Fix where export was throwing an error about an empty DSCBlock
+    ISSUE #1275;</li>
+<li>SPOTenantSettings</li>
+<li>Added support for specifying MarkNewFilesSensitiveByDefault</li>
+</ul>
+<h2 id="1216161">1.21.616.1<a class="headerlink" href="#1216161" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SPOSiteAuditSettings</li>
+<li>Fixed issue with Export where property Ensure was added
+    when an access forbidden error was encountered;</li>
+<li>DEPENDENCIES</li>
+<li>Updated Microsoft.Graph.Authentication to version 1.6.0;</li>
+<li>Updated Microsoft.Graph.Planner to version 1.6.0;</li>
+<li>Updated Microsoft.Graph.Teams to version 1.6.0;</li>
+</ul>
+<h2 id="1216092">1.21.609.2<a class="headerlink" href="#1216092" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fixed dependency on Microsoft.Graph.Authentication for
+  version 1.5.0.</li>
+</ul>
+<h2 id="1216091">1.21.609.1<a class="headerlink" href="#1216091" title="Permanent link">&para;</a></h2>
+<ul>
+<li>TeamsUpgradePolicy</li>
+<li>Fixes to how we are retrieving users assigned to the
+    Global Upgrade Policy.</li>
+<li>DEPENDENCIES</li>
+<li>Updated ExchangeOnlineManagement to version 2.0.5;</li>
+<li>Updated Microsoft.Graph.Planner to version 1.5.0;</li>
+<li>Updated Microsoft.Graph.Teams to version 1.5.0;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell
+    to version 2.0.126;</li>
+<li>Updated PnP.PowerShell to version 1.6.0;</li>
+</ul>
+<h2 id="1216021">1.21.602.1<a class="headerlink" href="#1216021" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADMSGroups</li>
+<li>Fix for the export where the MailNickName was being prompted;</li>
+<li>EXOManagementRole</li>
+<li>BREAKING: Now requires the Parent property as Mandatory;</li>
+<li>TeamsChannel</li>
+<li>Fixed an issue where content was dedup and boolean
+    values were appended to the exported content;</li>
+<li>TeamsUpgradePolicy</li>
+<li>Improved performance retrieving users assigned to policy;</li>
+<li>MISC</li>
+<li>Fix for Teams authentication. Improvements on session
+    reuse.</li>
+</ul>
+<h2 id="1215262">1.21.526.2<a class="headerlink" href="#1215262" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOSafeAttachmentRule</li>
+<li>Fixed issue #1213 Policy X already has rule Y associated with it
+  if rule exists already</li>
+<li>MSFT_IntuneDeviceCompliancePolicyAndroid</li>
+<li>New resource</li>
+<li>MSFT_IntuneDeviceCompliancePolicyAndroidWorkProfile</li>
+<li>New resource</li>
+<li>MSFT_IntuneDeviceCompliancePolicyMacOS</li>
+<li>New resource</li>
+<li>MSFT_IntuneDeviceCompliancePolicyiOs</li>
+<li>New resource</li>
+<li>EXOTransportRule</li>
+<li>Fix #1230 Changed ExceptIfSenderInRecipientList to array</li>
+</ul>
+<h2 id="1215192">1.21.519.2<a class="headerlink" href="#1215192" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AzureADRoleDefinition</li>
+<li>Fix an issue where deprecated roles were not increasing
+    the index which resulted in an incorrect count being
+    displayed during the extraction.</li>
+<li>EXORoleAssignmentPolicy</li>
+<li>Added missing ErrorAction value in the Export;</li>
+<li>TeamsTenantDialPlan</li>
+<li>Fixed issue around normalization rules export;</li>
+<li>SPOTenantSettings</li>
+<li>Fix issue with typo and dup property issue #1219</li>
+<li>MISC</li>
+<li>Forces a Global load of the new MicrosoftTeams module for
+    Teams resources;</li>
+</ul>
+<h2 id="1215191">1.21.519.1<a class="headerlink" href="#1215191" title="Permanent link">&para;</a></h2>
+<ul>
+<li>TeamsClientConfiguration</li>
+<li>Fixed an issue where the RestrictedSenderList was not properly
+    being converted to a comma separated string.
+    Issue #1191</li>
+<li>DEPENDENCIES</li>
+<li>Updated AzureADPreview to version 2.0.2.136;</li>
+</ul>
+<h2 id="1215121">1.21.512.1<a class="headerlink" href="#1215121" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOOfflineAddresBook</li>
+<li>Fixed issue in Set-TargetResource where ConfiguredAttributes
+    was passed and resulted in an error.</li>
+<li>SCDLPComplianceRule</li>
+<li>Added several new parameters</li>
+<li>Fixed several bugs on extract</li>
+</ul>
+<h2 id="1215051">1.21.505.1<a class="headerlink" href="#1215051" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOTransportRule</li>
+<li>Adding ExceptIfSCLOver and SCLOver.</li>
+<li>Fixes SubjectOrBodyContainsWords parameter not being an array.</li>
+<li>Fixes DateTime formating on ExpiryDate and ActivationDate</li>
+</ul>
+<h2 id="1214282">1.21.428.2<a class="headerlink" href="#1214282" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOTransportRule</li>
+<li>Fixed typo in accepted value for ApplyHtmlDisclaimerLocation;</li>
+<li>IntuneAppConfigurationPolicy</li>
+<li>Revamp of Telemetry;</li>
+<li>Using shorter cmdlets names;</li>
+<li>IntuneDeviceCompliancePolicyAndroid</li>
+<li>Initial Release;</li>
+<li>IntuneDeviceCompliancePolicyAndroidWorkProfile</li>
+<li>InitialRelease</li>
+<li>IntuneDeviceCompliancePolicyiOs</li>
+<li>Using shorter cmdlet names;</li>
+<li>IntuneDeviceConfigurationPolicyiOS</li>
+<li>Using shorter cmdlet names;</li>
+<li>IntuneDeviceEnrollmentPlatformRestriction</li>
+<li>Revamp of Telemetry;</li>
+<li>Using Shorter cmdlet names;</li>
+</ul>
+<h2 id="1214212">1.21.421.2<a class="headerlink" href="#1214212" title="Permanent link">&para;</a></h2>
+<ul>
+<li>MISC</li>
+<li>Updated the SkipModuleReload logic for a dozen of EXO modules
+    which were failing authentication;</li>
+</ul>
+<h2 id="1214211">1.21.421.1<a class="headerlink" href="#1214211" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADConditionalAccessPolicy</li>
+<li>Fix to allow 'undefined' as a value for multiple parameters;</li>
+<li>EXOTransportRule</li>
+<li>Fixed schema to support Service Principal Auth;</li>
+<li>TeamsChannelTab</li>
+<li>Fixed typo in parameter 'TeamId';</li>
+<li>MISC</li>
+<li>Refactor of all EXO resources to fixes for Set-TargetResource
+    functions where Service Principal was used to authenticate;</li>
+<li>Refactored connections across all resources to help with
+    Telemetry regarding what auth method users are leveraging.</li>
+</ul>
+<h2 id="1214142">1.21.414.2<a class="headerlink" href="#1214142" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADConditionalAccessPolicy</li>
+<li>Fixed an issue with the default values for device states;</li>
+<li>EXOHostedContentFilterPolicy</li>
+<li>Fixed issue where EndUserSpamNotificationCustomFromName was
+    not properly returned from the Get-TargetResource function;</li>
+<li>EXOTransportRule</li>
+<li>New resource;</li>
+<li>O365AdminAuditLogConfig</li>
+<li>Fixed issue where the Set-TargetResource stopped being
+    executed if an error was encountered;</li>
+<li>TeamsTeam</li>
+<li>Fix format issue with owner issue # 1143</li>
+<li>DEPENDENCIES</li>
+<li>Updated AzureADPreview to version 2.0.2.134;</li>
+<li>Updated Microsoft.Graph.Authentication to version 1.4.2;</li>
+<li>Updated Microsoft.Graph.Planner to version 1.4.2;</li>
+<li>Updated Microsoft.Graph.Teams to version 1.4.2;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to version
+    2.0.112;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.51;</li>
+<li>Updated PnP.PowerShell to version 1.5.0;</li>
+</ul>
+<h2 id="1214071">1.21.407.1<a class="headerlink" href="#1214071" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADConditionalAccessPolicy</li>
+<li>BREAKING: Renamed the 'includeDeviceStates' and 'excludeDeviceStates'
+    parameters to 'includeDevices' and 'excludeDevices';</li>
+<li>TeamsMeetingPolicy</li>
+<li>The Set-CsTeamsMeetingPolicy would fail if recording settings are
+    changed while the AllowCloudRecording is set to false;</li>
+<li>MISC</li>
+<li>Fixed issue in most EXO resources where AzureAD App information
+    was not returned by the Get-TargetResource function;</li>
+</ul>
+<h2 id="1213311">1.21.331.1<a class="headerlink" href="#1213311" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADApplication</li>
+<li>Added support for API Permissions;</li>
+<li>EXOSharedMailbox</li>
+<li>Improved how we are retrieving all shared mailboxes in the
+    Export-TargetResource function.</li>
+<li>ODSettings</li>
+<li>Fixed and issue with ExcludedFileExtensions;</li>
+<li>SCDLPComplianceRule</li>
+<li>Fixed issue where only the first SIT Action was exported;</li>
+<li>SPOSiteDesign</li>
+<li>Added support for GrouplessTeamSite web template.</li>
+<li>SPOSiteScript</li>
+<li>Fixed issue where an existin site script could not be updated.</li>
+<li>Made parameter GlobalAdminAccount in Get-TargetResource
+    optional.</li>
+<li>SPOTheme</li>
+<li>Fixed issue where removal of a theme would throw an error.</li>
+<li>Corrected variable name to properly show the theme name in verbose message
+    when removing a theme.</li>
+<li>MISC</li>
+<li>Fixed issue with ODSettings and ExcludedFileExtensions</li>
+</ul>
+<h2 id="1213171">1.21.317.1<a class="headerlink" href="#1213171" title="Permanent link">&para;</a></h2>
+<ul>
+<li>DEPENDENCIES</li>
+<li>Updated Exchange Management to version 2.0.4 (REDO);</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.50;</li>
+<li>MISC</li>
+<li>Fixed issue when using CertificatePath and CertificatePassword
+    for SPO resource;</li>
+</ul>
+<h2 id="1212241">1.21.224.1<a class="headerlink" href="#1212241" title="Permanent link">&para;</a></h2>
+<ul>
+<li>DEPENDENCIES</li>
+<li>Rolled-back ExchangeOnlineManagement to 2.0.3;</li>
+</ul>
+<h2 id="1212171">1.21.217.1<a class="headerlink" href="#1212171" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SPOSite</li>
+<li>Fixed an issue related to new cmdlets in PnP.PowerShell;</li>
+<li>DEPENDENCIES</li>
+<li>Updated ExchangeOnlineManagement to 2.0.4;</li>
+<li>Updated PNP.PowerShell to 1.3.0;</li>
+</ul>
+<h2 id="1212031">1.21.203.1<a class="headerlink" href="#1212031" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SPOSiteDesignRights</li>
+<li>Fixed an issue that was preventing this resource from
+    being exported;</li>
+<li>SPOBrowserIdleSignout</li>
+<li>Initial Release;</li>
+<li>TeamsTenantDialPlan</li>
+<li>Fixed an issue with the way Voice Normalization Rules were handled;</li>
+<li>MISC</li>
+<li>Fix to the Delta Report Generator to properly handle TeamsPSTNUsage;</li>
+<li>Fixed various Export Verbose format issues;</li>
+<li>DEPENDENCIES</li>
+<li>Updated Microsoft.Graph.Authentication to version 1.3.1;</li>
+<li>Updated Microsoft.Graph.Planner to version 1.3.1;</li>
+<li>Updated Microsoft.Graph.Teams to version 1.3.1;</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.48;</li>
+</ul>
+<h2 id="1211271">1.21.127.1<a class="headerlink" href="#1211271" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADNamedLocation</li>
+<li>Initial Release;</li>
+<li>DEPENDENCIES</li>
+<li>Updated PnP.PowerShell to version 1.2.0;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to
+    1.0.208;</li>
+</ul>
+<h2 id="1211201">1.21.120.1<a class="headerlink" href="#1211201" title="Permanent link">&para;</a></h2>
+<ul>
+<li>DEPENDENCIES</li>
+<li>Updated MSCloudLoginAssistant to version 1.0.45;</li>
+<li>Replaced the SharePointPnPPowerShellOnline dependency by the new
+    PnP.PowerShell core module;</li>
+</ul>
+<h2 id="1211131">1.21.113.1<a class="headerlink" href="#1211131" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADTenantDetails</li>
+<li>Fixes an issue where the Set would fail if Service Principal
+    was used.
+    (Issue <a href="https://github.com/microsoft/Microsoft365DSC/issues/1002">#1002</a>)</li>
+<li>AADRoleDefinition</li>
+<li>Filters out role definitions without any assigned permissions.
+    Fixes Issue #1007;</li>
+<li>DEPENDENCIES</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell
+    to 2.0.104;</li>
+</ul>
+<h2 id="12012231">1.20.1223.1<a class="headerlink" href="#12012231" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SPOHubSite</li>
+<li>Changed Export logic to make the url parameterized</li>
+<li>Updated Get method to prevent throwing an exception
+    when the specified site doesn't exist</li>
+<li>SPOSite</li>
+<li>Updated logic to not process the HubUrl parameter
+    when this is equal to the Url parameter.</li>
+<li>Updated export logic to not export the HubUrl
+    parameter when this is equal to the Url parameter.</li>
+<li>Fixed issue with incorrectly applying the LocaleId</li>
+<li>SPOSiteAuditSettings</li>
+<li>Changed Export logic to make the url parameterized</li>
+<li>SPOSiteGroup</li>
+<li>Changed Export logic to make the url parameterized</li>
+<li>Updated logic to output more explainable troubleshooting
+    messages</li>
+<li>M365DscReverse</li>
+<li>Added the GlobalAccount Parameter to the example
+    that is outputted after using the Export GUI</li>
+</ul>
+<h2 id="12012161">1.20.1216.1<a class="headerlink" href="#12012161" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADConditionalAccessPolicy</li>
+<li>Initial Release;</li>
+<li>EXOSafeLinksRule</li>
+<li>Fixed typo in a try/catch clause;</li>
+<li>O365User</li>
+<li>Added support for removing existing users with
+    Ensure = 'Absent';</li>
+<li>TeamsChannelTab</li>
+<li>Initial Release;</li>
+</ul>
+<h2 id="12012091">1.20.1209.1<a class="headerlink" href="#12012091" title="Permanent link">&para;</a></h2>
+<ul>
+<li>IntuneAppProtectionPolicyiOS</li>
+<li>Initial Release;</li>
+<li>IntuneDeviceCompliancePolicyiOS</li>
+<li>Initial Release;</li>
+<li>IntuneDeviceConfigurationPolicyiOS</li>
+<li>Initial Release;</li>
+<li>IntuneDeviceEnrollmentPlatformRestriction</li>
+<li>Initial Release;</li>
+<li>IntuneDeviceEnrollmentLimitRestriction</li>
+<li>Initial Release;</li>
+<li>TeamsTenantDialPlan</li>
+<li>Performance Improvements: retrieve all Voice Normalization
+    Rule at once and then iterated through them instead of
+    retrieving them for every instance.</li>
+<li>DEPENDENCIES</li>
+<li>Upgraded ExchangeOnlineManagement to version 2.0.3;</li>
+<li>Upgraded Microsoft.Graph.Authentication to version 1.2.0;</li>
+<li>Upgraded Microsoft.Graph.Planner to version 1.2.0;</li>
+<li>Upgraded SharePointPnPPowerShellOnline to version
+    3.28.2012.0;</li>
+</ul>
+<h2 id="12012021">1.20.1202.1<a class="headerlink" href="#12012021" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOOwaMailboxPolicy</li>
+<li>Fixed an issue trying to remove a policy;</li>
+<li>TeamsMessagingPolicy</li>
+<li>Added AllowUserEditMessage property.</li>
+<li>TeamsMeetingPolicy</li>
+<li>Added 'OrganizerOnly' as a support value for property
+    AutoAdmittedUsers.</li>
+<li>Temporarly removed the use of AllowAnonymousUsersToDialOut
+    since it is currently disabled on the API side.</li>
+<li>EXPORT</li>
+<li>Fixed an issue where an Export using the -Workloads
+    parameter with a Service Principal did not export
+    any resource;</li>
+<li>DEPENDENCIES</li>
+<li>Upgrade AzureADPreview to version 2.0.2.129;</li>
+</ul>
+<h2 id="12011251">1.20.1125.1<a class="headerlink" href="#12011251" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADRoleDefinition</li>
+<li>Initial Release;</li>
+<li>O365User</li>
+<li>Fixes an issue where only the first O365User instance
+    extracted had the PSCredential Password property set
+    correctly;</li>
+<li>TeamsMeetingPolicy</li>
+<li>Added the AllowBreakoutRooms, TeamsCameraFarEndPTZMode
+    &amp; AllowMeetingReactions parameters;</li>
+<li>DEPENDENCIES</li>
+<li>MSCloudLoginAssistant Updated to 1.0.42;</li>
+<li>Microsoft.PowerApps.Administration.PowerShell Updated
+    to 2.0.99;</li>
+<li>MISC</li>
+<li>Moved the check for new version of module into the
+    Export-M365DSCConfiguration function for performance
+    improvements;</li>
+</ul>
+<h2 id="12011181">1.20.1118.1<a class="headerlink" href="#12011181" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOMalwareFilterPolicy</li>
+<li>Fix an issue when the CustomFromAddress is empty;
+    (Issue #901)</li>
+<li>EXORemoteDomain</li>
+<li>Fixed an issue where only non-null parameters are
+    used in the Set-TargetResource resource;
+    (Issue #898)</li>
+<li>SCRetentionEventType</li>
+<li>Initial Release;</li>
+<li>SPOSiteScript</li>
+<li>BREAKING CHANGE: Title is now the primary key for the
+    resource and Service Principal is now supported for
+    authentication.</li>
+<li>MODULES</li>
+<li>M365DSCStringEncoding
+    New resource to handle encoding issues in exported content;
+    (Issue #904)</li>
+<li>M365DSCLogEngine
+    Added Export-M365DiagnosticData function to export diagnostic
+    information to a Zip file.</li>
+</ul>
+<h2 id="12011111">1.20.1111.1<a class="headerlink" href="#12011111" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADPolicy
+  Initial Release;</li>
+<li>Fixes an issue with SCRetentionCompliancePolicy where
+  the wrong parameter sets was being passed for creation.
+  (Issue #890)</li>
+</ul>
+<h2 id="12011041">1.20.1104.1<a class="headerlink" href="#12011041" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADMSGroup</li>
+<li>Added parameter IsAssignableToRole Issue #879</li>
+<li>Fixed issue on Set Issue #863</li>
+<li>EXOHostedContentFilterPolicy</li>
+<li>Deprecated ZapEnabled property and added PhishZapEnabled
+    and SpamZapEnabled instead.</li>
+<li>MISC</li>
+<li>Added checks for mandatory Authentication parameters before
+    attempting an Export.</li>
+<li>Deprecated the Assert-M365DSCTemplate cmdlet;</li>
+<li>Added Telemetry for version of PowerShell used;</li>
+<li>Added a timeout on new version check from the
+    PowerShell Gallery;</li>
+<li>Fixed Unit Test stubs;</li>
+</ul>
+<h2 id="12010281">1.20.1028.1<a class="headerlink" href="#12010281" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOOutboundConnector</li>
+<li>Fixed issue #821;</li>
+<li>O365OrgCustomizationSetting</li>
+<li>Fixes an issue where the resource was not being exported;</li>
+<li>O365User</li>
+<li>Added additional information in the error log for when
+    we try to set an invalid license</li>
+<li>ODSettings</li>
+<li>Removed AD group guid dependency issue # 862</li>
+<li>SPOTenantSettings</li>
+<li>Parameter RequireAcceptingAccountMatchInvitedAccount
+    is now deprecated (Issue #864)</li>
+<li>SPOSharingSettings</li>
+<li>Fixed issue # 855</li>
+<li>Fixed issue # 866 changed domains to array</li>
+<li>Fixed issue where trying to set anonymous link types if
+    sharing not properly configured issue #865</li>
+<li>SPOTheme</li>
+<li>Fixed issue where Palette was not being properly extracted as
+    an array of CIMInstances.</li>
+<li>TeamsTeam</li>
+<li>Added support for visibility HiddenMembership</li>
+<li>MODULES</li>
+<li>M365DSCUtil<ul>
+<li>Fixed an issue where function Test-M365DSCObjectHasProperty was missing
+  (Issue #861)</li>
+</ul>
+</li>
+<li>M365DSCReverse<ul>
+<li>Fixed an issue where passing in the file name and using the GUI for
+  extraction did not store the file at the specified location (Issue #810)</li>
+<li>Fixed and issue where the -GenerateInfo parameter would always generate
+  a link to the same resource.</li>
+<li>Added current version module in the Export file.</li>
+</ul>
+</li>
+<li>MISC</li>
+<li>Added Authentication Type used to the Telemetry Engine.</li>
+<li>DEPENDENCIES</li>
+<li>AzureADPreview Updated to 2.0.2.119</li>
+<li>DSCParser Updated to 1.3.0.0</li>
+<li>Microsoft.Graph.Authentication Updated to 1.1.0</li>
+<li>Microsoft.Graph.Planner Updated to 1.1.0</li>
+<li>Microsoft.PowerApps.Administration.PowerShell Updated
+    to 2.0.96;</li>
+</ul>
+<h2 id="12010211">1.20.1021.1<a class="headerlink" href="#12010211" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADTenantDetails</li>
+<li>Fixed issue where IsSingleInstance was not returned from
+    the Get-TargetResource method;</li>
+<li>MISC</li>
+<li>Fix to how Telemetry is retrieving module version;</li>
+<li>Added additional error troubleshooting information
+    to telemetry (dependencies version).</li>
+</ul>
+<h2 id="12010161">1.20.1016.1<a class="headerlink" href="#12010161" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fixed a permissions issue with the
+  Install-M365DSCDevBranch cmdlet (Issue #699 &amp; #826)</li>
+<li>DEPENDENCIES</li>
+<li>MSCloudLoginAssistant Updated to 1.0.41;</li>
+<li>SharePointPnPPowerShellOnline Updated to 3.26.2010.0;</li>
+<li>MISC</li>
+<li>Improved Error log to include StackTrace for additional
+    info to help troubleshooting errors.</li>
+</ul>
+<h2 id="12010141">1.20.1014.1<a class="headerlink" href="#12010141" title="Permanent link">&para;</a></h2>
+<ul>
+<li>TeamsVoiceRoute</li>
+<li>Initial Release</li>
+</ul>
+<h2 id="12010071">1.20.1007.1<a class="headerlink" href="#12010071" title="Permanent link">&para;</a></h2>
+<ul>
+<li>TeamsCallingPolicy</li>
+<li>Added new supported properties;</li>
+<li>TeamsMeetingPolicy</li>
+<li>Added new supported properties;</li>
+<li>TeamsTeam</li>
+<li>Added new supported properties;</li>
+</ul>
+<h2 id="1209301">1.20.930.1<a class="headerlink" href="#1209301" title="Permanent link">&para;</a></h2>
+<ul>
+<li>IntuneAppConfigurationPolicy</li>
+<li>Initial Release;</li>
+<li>DEPENDENCIES</li>
+<li>Rolled back ExchangeOnlineManagement to 2.0.1</li>
+<li>Microsoft.PowerApps.Administration.PowerShell updated
+    to 2.0.85;</li>
+<li>Microsoft.Graph.Authentication updated to 1.0.1;</li>
+<li>Microsoft.Graph.Groups.Planner updated to 1.0.1;</li>
+<li>MISC</li>
+<li>Refactored error handling to various EXO resources;</li>
+<li>Renamed method Test-Microsoft365DSCParameterState to
+    Test-M365DSCParameterState to align with naming standard;</li>
+<li>Fixed issue #777 with export of SCDLPComplianceRule;</li>
+</ul>
+<h2 id="1209231">1.20.923.1<a class="headerlink" href="#1209231" title="Permanent link">&para;</a></h2>
+<ul>
+<li>IntuneDeviceCategory</li>
+<li>Initial Release;</li>
+<li>SPOSite</li>
+<li>Fixed an issue where updating a site's properties
+    would throw an error complaining about the object
+    not being in a correct state.</li>
+<li>DEPENDENCIES</li>
+<li>AADPreview Updated to 2.0.2.117;</li>
+<li>ExchangeOnlineManagement Updated to 2.0.3;</li>
+<li>MSCloudLoginAssistant Updated to 1.0.40;</li>
+<li>ReverseDSC Updated to 2.0.0.7;</li>
+<li>Misc</li>
+<li>Removed EncryptionTemplateID from SCSensitivityLabel (Issue #758)</li>
+<li>Added AzureAD app support SPOSiteDesign</li>
+<li>Added possibility to provide a custom header to Blueprint
+    assessment and delta reports.</li>
+</ul>
+<h2 id="1209161">1.20.916.1<a class="headerlink" href="#1209161" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADServicePrincipal</li>
+<li>Initial Release (Issue #492)</li>
+<li>EXOAvailabilityAddressSpace</li>
+<li>Fixed an issue where if the user didn't have proper permissions
+    the entire Export process would stop;</li>
+<li>EXOAvailabilityConfig</li>
+<li>Fixed an issue where if the user didn't have proper permissions
+    the entire Export process would stop;</li>
+<li>EXOEmailAddressPolicy</li>
+<li>Fixed an issue where if the user didn't have proper permissions
+    the entire Export process would stop;</li>
+<li>DEPENDENCIES</li>
+<li>MicrosoftTeams Updated to 1.1.6;</li>
+<li>MSCloudLoginAssistant Updated to 1.0.38;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to 2.0.81;</li>
+<li>MISC</li>
+<li>Fixed issue with warning about unsupported resources in the
+    Export mode based on authentication selected.</li>
+<li>Fixes an issue in the Install-M365DSCDevBranch function
+    where if the manifest file had a leading 0 in the version
+    number (e.g. 1.20.0902.1), it would create the folder as
+    a version with the '0' where the Gallery trims it.
+    (Issue #685)</li>
+</ul>
+<h2 id="1209091">1.20.909.1<a class="headerlink" href="#1209091" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOApplicationAccessPolicy</li>
+<li>Added some error handling around the
+    Get-ApplicationAccessPolicy cmdlet
+    (Issue #702);
+    *EXOSharedMailbox</li>
+<li>Fixed an issue where Aliases were not properly removed
+    (Issue #749);</li>
+<li>TeamsCallingPolicy</li>
+<li>Added support for the AllowWebPSTNCalling and Description
+    properties;</li>
+<li>TeamsChannel</li>
+<li>Fixed an error in the Export when trying to connect using
+    only an Azure AD Application without any credentials
+    (Issue #754);</li>
+<li>TeamsClientConfiguration</li>
+<li>Added support for the AllowEgnyte property
+    (Issue #744);</li>
+<li>TeamsUser</li>
+<li>Fixed an issue where for large tenants the Export could
+    failed due to a percentage of completion greater than
+    100% for the Write-Progress
+    (Issue #722);</li>
+<li>MISC</li>
+<li>Fixed an issue where the OD checkbox was always disabled
+    in the GUI;</li>
+<li>Changed the logic of the Unselect All button in the GUI
+    so that it doesn't unselect the authentication checkboxes;</li>
+<li>Fixed an issue where SPOHubSite was left selected in the
+    Export GUI even when unselecting the entire SPO Workload
+    (Issue #735);</li>
+<li>Fixed an issue where if no Destination Path was provided
+    after an export, it would fail. It now defaults to the
+    current location
+    (Issue #698);</li>
+<li>Fixed issue SCSensitivityLabel on EncryptionRightsDefinitions parameters
+    format (Issue #758)</li>
+<li>DEPENDENCIES</li>
+<li>MSCloudLoginAssistant Updated to 1.0.34;</li>
+<li>Microsoft.PowerApps.Administration.PowerShell Updated to 2.0.77;</li>
+<li>SharePointPnPPowerShellOnline Updated to 3.25.2009.1;</li>
+</ul>
+<h2 id="1209021">1.20.902.1<a class="headerlink" href="#1209021" title="Permanent link">&para;</a></h2>
+<ul>
+<li>O365User</li>
+<li>Fixed an issue where we were trying to assign an empty
+    license to a user if an empty array was passed for
+    LicenseAssignment.</li>
+<li>SCComplianceSearchAction</li>
+<li>Added 'Preview' as a supported value for Action;</li>
+<li>ReverseDSC</li>
+<li>Fixed an issue where a newline was missing in the
+    credentials section when a certificate password was
+    specified;</li>
+<li>MISC</li>
+<li>Added a new Assert-M365DSCBlueprint function to generate
+    discrepency report between export of tenant and a BluePrint;</li>
+<li>Metadata</li>
+<li>Updated DSCParser Module to version 1.2.0.0;</li>
+<li>Updated Microsoft.Graph.Authentication Module to version
+    0.9.1;</li>
+<li>Updated Microsoft.Graph.Groups.Planner Module to version
+    0.9.1;</li>
+<li>Updated Microsoft.Graph.Identity.ConditionalAccess Module
+    to version 0.9.1;</li>
+<li>Updated Microsoft.Graph.Planner Module to version
+    0.9.1;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell Module
+    to version 0.9.1;</li>
+<li>Updated SharePointPnPPowerShellOnline Module to version
+    3.24.2008.1;</li>
+</ul>
+<h2 id="1208051">1.20.805.1<a class="headerlink" href="#1208051" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOAvailabilityConfig</li>
+<li>Fixed an issue with the Test-TargetResource where if a full
+    username (with '@') was specified for the OrgWideAccount, it
+    would always return false;</li>
+<li>EXOMobileDeviceMailboxPolicy</li>
+<li>Fixed an error where if no MinPasswordLength was specified
+    the Set-TargetResource threw n error trying to create a new
+    policy;</li>
+<li>EXOInboundConnector</li>
+<li>Fixed an issue where ResourceName was null during the export;</li>
+<li>EXOOutboundConnector</li>
+<li>Fixed an issue where ResourceName was null during the export;</li>
+<li>ODSettings</li>
+<li>Fixed an issue where the GrooveBlockOption setting was never
+    set properly;</li>
+<li>SCSensitivityLabel</li>
+<li>Added new parameters</li>
+</ul>
+<h2 id="1207302">1.20.730.2<a class="headerlink" href="#1207302" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADMSGroup</li>
+<li>Fixed an issue where if GroupID was not passed, we could end up
+    with duplicate teams.</li>
+<li>MISC</li>
+<li>If a newer version of the module is available in the PowerShell
+    Gallery, a notification will be displayed to the user;</li>
+</ul>
+<h2 id="1207301">1.20.730.1<a class="headerlink" href="#1207301" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADApplication</li>
+<li>Removed the ObjectId parameter from the list of parameters
+    checked in the Test-TargetResource;</li>
+<li>AADGroupsSettings</li>
+<li>Fixed an issue where the values returned by Get-TargetResource were
+    always set to true due to an invalid cast;</li>
+<li>O365User</li>
+<li>Fixed an issue where no licenses specified resulted in an error;</li>
+<li>Metadata</li>
+<li>Updated MSCloudLoginAssistant Module to version 1.0.32;</li>
+</ul>
+<h2 id="1207231">1.20.723.1<a class="headerlink" href="#1207231" title="Permanent link">&para;</a></h2>
+<ul>
+<li>MISC</li>
+<li>Update to the Telemetry engine to capture information about tenant;</li>
+</ul>
+<h2 id="1207221">1.20.722.1<a class="headerlink" href="#1207221" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADApplication</li>
+<li>Fix an issue where a new AzureAD Application was not created
+    if ObjectId was speficied;</li>
+<li>O365User</li>
+<li>Fixed an issue where the PasswordNeverExpires value returned
+    was incorrect;</li>
+<li>SPOAPP</li>
+<li>Added property Path as a key for the SPOApp resource to
+    prevent conflict where two solutions could have the same
+    name;</li>
+<li>MISC</li>
+<li>Renamed the event log to M365DSC to avoid journal conflicts;</li>
+<li>
+<p>Metadata</p>
+</li>
+<li>
+<p>Updated Microsoft.Graph.Authentication module version to 0.7.1;</p>
+</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell version to
+    2.0.72;</li>
+<li>
+<p>Updated SharePointPnPPowerShellOnline version to 3.23.2007.1;</p>
+</li>
+<li>
+<p>SPOSiteScript;</p>
+</li>
+<li>Initial Release;</li>
+</ul>
+<h2 id="1207161">1.20.716.1<a class="headerlink" href="#1207161" title="Permanent link">&para;</a></h2>
+<ul>
+<li>MISC</li>
+<li>Added visual indicators for the Export feature;</li>
+<li>EXOMalwareFilterPolicy</li>
+<li>Fixed an issue where the value for the for the Action
+    returned by the Get included 'Text' and should not have;</li>
+<li>EXOOutboundConnector</li>
+<li>Fixed an issue where the ConnectorSource value returned
+    was empty. Now defaulting to Default.</li>
+<li>O365User</li>
+<li>Fixed issue with PasswordNeverExpires having incorrect value</li>
+<li>PlannerBucket</li>
+<li>Initial Release;</li>
+<li>PlannerPlan</li>
+<li>Initial Release;</li>
+<li>PlannerTask</li>
+<li>Initial Release;</li>
+<li>Metadata</li>
+<li>Updated ExchangeOnline module version to 1.0.1;</li>
+<li>Updated Microsoft.Graph module version to 0.7.0;</li>
+<li>Updated Microsoft.Graph.Identity.ConditionalAccess
+    module version to 0.7.0;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell
+    module version to 2.0.70;</li>
+<li>Updated MSCloudLoginAssistant Module to version 1.0.30;</li>
+<li>Updated SharePointPnPPowerShellOnline module to version 3.23.2007.0;</li>
+<li>Updated ReverseDSC module version to 2.0.0.4;</li>
+<li>Updated SharePointPnPPowerShellOnline module to
+    version 3.22.2006.2;</li>
+<li>Updated all Unit Tests to Pester 5;</li>
+<li>Added support for Service Principal for PowerPlatforms,
+    SPO &amp; OneDrive, Exchange Online and Office 365 resources;</li>
+</ul>
+<h2 id="12006031">1.20.0603.1<a class="headerlink" href="#12006031" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Microsoft365Dsc</li>
+<li>Improved event log function</li>
+<li>EXOEmailAddressPolicy</li>
+<li>Converted hardcoded tenant name into variables;</li>
+<li>EXOHostedContentFilterPolicy</li>
+<li>Added 'NoAction' as a valid input for property BulkSpamAction;</li>
+<li>EXOInboundConnector</li>
+<li>Fixed an issue where if the connector was created with a source
+    of 'AdminUI', we now convert it to 'Default' in the Get function;</li>
+<li>EXOOutboundConnector</li>
+<li>Fixed an issue where if the connector was created with a source
+    of 'AdminUI', we now convert it to 'Default' in the Get function;</li>
+<li>TeamsTenantDialPlan</li>
+<li>Fixed an issue extraction plans without any normalization rules;</li>
+<li>
+<p>Modules</p>
+</li>
+<li>
+<p>M365DSCUtil:</p>
+<ul>
+<li>Fixed an issue in Test-Microsoft365DSCParameterState where
+  the same array of object was always being compared;</li>
+<li>Issue 612 - Fixed an extra '}' in the event log output;</li>
+</ul>
+</li>
+<li>
+<p>Metadata</p>
+</li>
+<li>Updated AzureADPreview to 2.0.2.102;</li>
+<li>Updated MSCloudLoginAssistant to 1.0.23;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell
+    to 2.0.64;</li>
+<li>Updated ReverseDSC to 2.0.0.3;</li>
+<li>Updated SharePointPnPPowerShellOnline to 3.21.2005.2;</li>
+<li>Misc</li>
+<li>Azure DevOPS Pipelines and AppVeyor Tests converted to GitHub
+    Actions;</li>
+</ul>
+<h2 id="105128">1.0.5.128<a class="headerlink" href="#105128" title="Permanent link">&para;</a></h2>
+<ul>
+<li>AADGroupsNamingPolicy</li>
+<li>Added support for AzureAD Application Authentication;</li>
+<li>AADGroupsSettings</li>
+<li>Added support for AzureAD Application Authentication;</li>
+<li>Fixed issue where properties were returned as string instead
+    of boolean;</li>
+<li>AADMSGroup</li>
+<li>Initial Release;</li>
+<li>AADMSGroupLifecyclePolicy</li>
+<li>Added support for AzureAD Application Authentication;</li>
+<li>TeamsChannel</li>
+<li>Added support for AzureAD Application Authentication;</li>
+<li>TeamsTeam</li>
+<li>Added support for AzureAD Application Authentication;</li>
+<li>TeamsTenantDialPlan</li>
+<li>Initial Release;</li>
+<li>TeamsUser</li>
+<li>Added support for AzureAD Application Authentication;</li>
+<li>Modules</li>
+<li>Added M365DSCAgent;</li>
+<li>Added M365DSCReport;</li>
+<li>Metadata</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to 2.0.57;</li>
+<li>Updated MicrosoftTeams to 1.0.6;</li>
+<li>Updated MSCloudLoginAssistant to 1.0.14;</li>
+<li>Introduced dependency on the EXchangeOnlineManagement module;</li>
+<li>Introduced dependency on the Microsoft.Graph.Authentication module;</li>
+<li>Introduced dependency on the Microsoft.Graph.Identity.ConditionalAccess
+    module;</li>
+<li>Introduced dependency on the DSCParser module;</li>
+</ul>
+<h2 id="10439">1.0.4.39<a class="headerlink" href="#10439" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Re-branding to Microsoft365DSC</li>
+<li>All components re-branded;</li>
+<li>AADMSGroupLifecyclePolicy</li>
+<li>Initial Release;</li>
+<li>AADGroupsNamingPolicy</li>
+<li>Initial Release;</li>
+<li>AADGroupsSettings</li>
+<li>Initial Release;</li>
+<li>AADMSGroupLifecyclePolicy</li>
+<li>Initial Release;</li>
+<li>SCAuditConfigurationPolicy</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCDLPCompliancePolicy</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCFilePropertyAuthority</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCFilePlanPropertyCategory</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCFilePlanPropertyCitation</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCFilePlanPropertyDepartment</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCFilePlanPropertyReferenceId</li>
+<li>Fix issue with the Remove scenario;</li>
+<li>SCFilePlanPropertySubCategory</li>
+<li>Fix issue with the Remove scenario</li>
+<li>SCRetentionCompliancePolicy</li>
+<li>Fix issue with Teams Policy in the Get;</li>
+<li>SPOPropertyBag</li>
+<li>Fixed an issue where false positive drifts were being detected;</li>
+<li>SPOSiteAuditSettings</li>
+<li>Generalized the URL not to capture hardcoded dmomains;</li>
+<li>SPOSiteGroup</li>
+<li>Fixed an issue where now, groups with Null owners are not extracted;</li>
+<li>Generalized the URL not to capture hardcoded dmomains;</li>
+<li>TeamsCallingPolicy</li>
+<li>Removed the AllowCalling parameter since it is no longer supported;</li>
+<li>Fixed an issue with Policies without tags in their name (e.g. Global);</li>
+<li>TeamsMessagingPolicy</li>
+<li>Fixed and issue where the Global policy was always flagged as having
+    a drift;</li>
+<li>TeamsUpgradePolicy</li>
+<li>Initial Release;</li>
+<li>M365DSCUtil</li>
+<li>Added the new Assert-M365DSCTemplate cmdlet to assess remote templates;</li>
+<li>ReverseDSC</li>
+<li>Change to allow ComponentsToExtract without the 'chck' prefix;</li>
+<li>Introduction of Extraction Modes and Visual Indicators;</li>
+<li>Major refactoring, having UI dynamic and items displayed by
+    Resources' names;</li>
+<li>Metadata</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell to 2.0.56;</li>
+<li>Updated MicrosoftTeams dependency to 1.0.5;</li>
+<li>Updated MSCloudLoginAssistant dependency to 1.0.6;</li>
+<li>Updated SharePointPnPPowerShellOnline dependency to 3.20.2004.0;</li>
+</ul>
+<h2 id="1031723">1.0.3.1723<a class="headerlink" href="#1031723" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOHostedOutboundSpamFilterPolicy</li>
+<li>BREAKING CHANGE: Remove IsSingleInstance and added
+    Identity as key;</li>
+<li>SPOSite</li>
+<li>Refactor to use PnP and expose updated parameters;</li>
+<li>TeamsGuestMessagingConfiguration</li>
+<li>Added value NoRestriction for GiphyRatingValues;</li>
+<li>Metadata</li>
+<li>Removed dependencyon MSOnline;</li>
+<li>Updated MSCloudLoginAssistant dependency to 1.0.2;</li>
+<li>Updated SharePointPnPPowerShellOnline dependency to 3.18.2002.0;</li>
+<li>Updated Microsoft.PowerApps.Administration.PowerShell
+    dependency to 2.0.42;</li>
+</ul>
+<h2 id="1021583">1.0.2.1583<a class="headerlink" href="#1021583" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOAcceptedDomain</li>
+<li>Fixed an issue where the domains were not properly extracted
+    if multiple domain matches a similar pattern;</li>
+<li>EXOHostedOutboundSpamFilterPolicy</li>
+<li>Fixed an error where the resource was not being extracted via
+    the Graphical User Interface;</li>
+<li>SCComplianceTag</li>
+<li>Fix an issue where FilePlanProperty values returned
+    from Get-TargetResource where always empty;</li>
+<li>SCDLPComplianceRule</li>
+<li>Fixed an issue with multiple SensitiveInformation objects;</li>
+<li>Fixed an issue where extraction failed if the name of the
+    Sensitive Information property contained apostrophes;</li>
+<li>SCFilePlanPropertySubCategory</li>
+<li>Fixed an issue where the Sub-Categories were not properly extracted,
+    whenever the parent category is custom;</li>
+<li>TeamsEmergencyCallingPolicy</li>
+<li>Initial Release;</li>
+<li>TeamsEmergencyCallRoutingPolicy</li>
+<li>Initial Release;</li>
+<li>TeamsGuestCallingConfiguration</li>
+<li>Initial Release;</li>
+<li>TeamsGuestMeetingConfiguration</li>
+<li>Initial Release;</li>
+<li>TeamsGuestMessagingConfiguration</li>
+<li>Initial Release;</li>
+<li>TeamsMeetingBroadcastPolicy</li>
+<li>Initial Release;</li>
+<li>ReverseDSC</li>
+<li>Updated Graphical User Interface with new resources;</li>
+<li>Streamlined the looping logic to simplify development process
+    for new resources;</li>
+<li>Metadata</li>
+<li>Updated Microsoft.Online.SharePoint.PowerShell to version
+    16.0.19515.12000;</li>
+<li>Updated ReverseDSC dependency to version 2.0.0.2;</li>
+<li>Updated SharePointPnPPowerShellOnline to version 3.17.2001.2;</li>
+<li>SPOHomeSite</li>
+<li>Initial Release;</li>
+</ul>
+<h2 id="1011395">1.0.1.1395<a class="headerlink" href="#1011395" title="Permanent link">&para;</a></h2>
+<ul>
+<li>EXOOrganizationConfig</li>
+<li>Initial Release;</li>
+<li>EXOClientAccessRule</li>
+<li>Fixed issue with Get-TargetResource not
+    returning all values;</li>
+<li>O365OrgCustomizationSetting</li>
+<li>Inital Release;</li>
+<li>PPPowerAppsEnvironment</li>
+<li>Initial Release;</li>
+<li>SCAuditConfigurationSettings</li>
+<li>Initial Release;</li>
+<li>SCComplianceTag</li>
+<li>Changed ReviewerEmail to type String array;</li>
+<li>SCDLPComplianceRule</li>
+<li>Fixed issue with the extraction of NotifyAllowOverride;</li>
+<li>SCFilePlanPropertyAuthority</li>
+<li>Initial Release;</li>
+<li>SCFilePlanPropertyCategory</li>
+<li>Initial Release;</li>
+<li>SCFilePlanPropertyCitation</li>
+<li>Initial Release;</li>
+<li>SCFilePlanPropertyDepartment</li>
+<li>Initial Release;</li>
+<li>SCFilePlanPropertyReferenceID</li>
+<li>Initial Release;</li>
+<li>SCFilePlanPropertySubCategory</li>
+<li>Initial Release;</li>
+<li>SPOPropertyBag</li>
+<li>Added multithreading;</li>
+<li>SPOSiteGroup</li>
+<li>Initial Release;</li>
+<li>SPOSharingSettings</li>
+<li>Added ExistingExternalUserSharingOnly as a supported value
+    for SharingCapabilities;</li>
+<li>SPOTheme</li>
+<li>Fixed an issue with the Set-TargetResource
+    still using SPO management shell cmdlets instead of PnP;</li>
+<li>SPOUserProfileProperty</li>
+<li>Introduced Multi-Threading</li>
+<li>TeamsCallingPolicy</li>
+<li>Initial Release;</li>
+<li>TeamsMeetingBroadcastConfiguration</li>
+<li>Initial Release;</li>
+<li>TeamsMeetingConfiguration</li>
+<li>Initial Release;</li>
+<li>TeamsMeetingPolicy</li>
+<li>Initial Release;</li>
+<li>TeamsMessagingPolicy</li>
+<li>Initial Release;</li>
+<li>TeamsUpgradeConfiguration</li>
+<li>Initial Release;</li>
+<li>TeamsUser</li>
+<li>Introduced Multi-Threading;</li>
+<li>Fixed an issue with User's Principal Name;</li>
+<li>Metadata</li>
+<li>Updated MicrosoftTeams dependency to version 1.0.3;</li>
+<li>Updated MSCloudLoginAssistant dependency to version
+    0.8.2;</li>
+<li>Updated SharePointPnPPowerShellOnline dependency
+    to version 3.16.1912.0;</li>
+<li>Updated ReverseDSC dependency to version 2.0.0.0;</li>
+<li>Misc</li>
+<li>Added new Telemetry Engine;</li>
+<li>Added new Dynamic Stubs Generation feature;</li>
+</ul>
+<h2 id="1001048">1.0.0.1048<a class="headerlink" href="#1001048" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SCCaseHoldPolicy</li>
+<li>New Resource;</li>
+<li>SCComplianceCase</li>
+<li>New Resource;</li>
+<li>SCComplianceSearch</li>
+<li>New Resource;</li>
+<li>SCComplianceSearchAction</li>
+<li>New Resource;</li>
+<li>SCDLPComplianceRule</li>
+<li>New Resource;</li>
+<li>SPOPropertyBag</li>
+<li>New Resource;</li>
+<li>SPOSiteAuditSettings</li>
+<li>New Resource;</li>
+<li>SPOTenantCDNPolicy</li>
+<li>New Resource;</li>
+<li>Reverse</li>
+<li>Added workload selectors to the GUI interface;</li>
+<li>Metadata</li>
+<li>Updated MSCloudLoginAssistant dependency
+    to version 0.8.3;</li>
+<li>Updated ReverseDSC dependency
+    to version 1.9.4.6;</li>
+<li>Updated Microsoft.Online.SharePoint.PowerShell dependency
+    to version 16.0.19223.12000;</li>
+<li>Updated MicrosoftTeams dependency to version 1.0.0.2;</li>
+<li>Updated SharePointPnPPowerShellOnline dependency
+    to version 3.14.1910.0</li>
+</ul>
+<h2 id="100846">1.0.0.846<a class="headerlink" href="#100846" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Modules</li>
+<li>ReverseDSC<ul>
+<li>Added all missing Security and Compliance items;</li>
+</ul>
+</li>
+<li>EXOATPPolicyForO365</li>
+<li>Fixed issue where we now extract any policy,
+    not just default;</li>
+<li>SCDLPCompliancePolicy</li>
+<li>New Resource;</li>
+<li>SCRetentionCompliancePolicy</li>
+<li>Changed logic to update existing Policy;</li>
+<li>Metadata</li>
+<li>Updated SharePointPnPPowerShellOnline dependency
+    to version 3.12.1908.1;</li>
+<li>Updated MSCloudLoginAssistant dependency to
+    version 0.6;</li>
+</ul>
+<h2 id="100776">1.0.0.776<a class="headerlink" href="#100776" title="Permanent link">&para;</a></h2>
+<ul>
+<li>BREAKING CHANGES</li>
+<li>ODSettings<ul>
+<li>IsSingleInstance is now a Mandatory parameter;</li>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOAccessControlSettings<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOAPP<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOHubSite<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOSearchManagedProperty<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOSearchResultSource<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOSharingSettings<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOSite<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOSiteDesign<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOSiteDesignRights<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOTenantSettings<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>SPOTheme<ul>
+<li>Removed CentralAdminUrl as a parameter;</li>
+</ul>
+</li>
+<li>Metadata</li>
+<li>Updated version dependency for MSCloudLoginAssistant
+    to 0.5.8;</li>
+<li>Modules</li>
+<li>ReverseDSC<ul>
+<li>Fixed some issues with the abstraction of tenant name
+  when the -Quiet switch is used;</li>
+</ul>
+</li>
+<li>SPOApp</li>
+<li>Change logic for detection when no App Catalog exist;</li>
+</ul>
+<h2 id="100744">1.0.0.744<a class="headerlink" href="#100744" title="Permanent link">&para;</a></h2>
+<ul>
+<li>GENERAL</li>
+<li>Updated Dependency on SharePointPnPPowerShellOnline
+    to version 3.11.1907.0</li>
+<li>BREAKING CHANGES</li>
+<li>O365Group<ul>
+<li>ManagedBy is now a mandatory property;</li>
+</ul>
+</li>
+<li>SPOSite<ul>
+<li>Owner is now a mandatory property</li>
+</ul>
+</li>
+<li>Modules</li>
+<li>Added embedded Log Engine</li>
+<li>SCRetentionCompliancePolicy</li>
+<li>Initial Release;</li>
+<li>SCRetentionComplianceRule</li>
+<li>Initial Release</li>
+<li>SCSupervisoryReviewPolicy</li>
+<li>Initial Release</li>
+<li>SCSupervisoryReviewRule</li>
+<li>Initial Release</li>
+<li>SPOSite</li>
+<li>Added default value for Storage Quota;</li>
+<li>Fixed an issue with site creation that could result in infinite loops;</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../why/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Why Microsoft365DSC" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Why Microsoft365DSC
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../license/" class="md-footer__link md-footer__link--next" aria-label="Next: License" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              License
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Microsoft365DSC
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/Microsoft365DSC" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCveScabVT6pxzqYgGRu17iw" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.powershellgallery.com/packages/Microsoft365DSC/" target="_blank" rel="noopener" title="www.powershellgallery.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.649a939e.min.js"></script>
+      
+    
+  </body>
+</html>
